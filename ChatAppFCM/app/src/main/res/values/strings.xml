@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Chat App FCM</string>
+    <string name="chat">"Chat"</string>
+</resources>

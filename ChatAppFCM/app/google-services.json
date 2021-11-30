@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "215075547703",
+    "project_id": "chat-app-fcm",
+    "storage_bucket": "chat-app-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215075547703:android:615c4d730958c99cbc6db2",
+        "android_client_info": {
+          "package_name": "com.zakiyahhamidah.chatappfcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215075547703-dgj9gubgankout3rbstotf0p9vo2pik5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCofZOa4f9yyTUBF_KGWqDkzEs5arWNpo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215075547703-dgj9gubgankout3rbstotf0p9vo2pik5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

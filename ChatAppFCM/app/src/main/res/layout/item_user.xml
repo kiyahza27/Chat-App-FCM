@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:id="@+id/lyt_parent"
+    android:clickable="true">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+
+        android:gravity="center_vertical"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/image"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/user" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="People Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/phone_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:maxLines="2"
+                android:text="Simple details"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</com.balysv.materialripple.MaterialRippleLayout>
