@@ -2,6 +2,10 @@
 Assignment 3 - Create Chat App with FCM
 
 ## App features
+1. Login
+2. Daftar Teman/Kontak
+3. Halaman Chat
+4. Logout
 
 ## Streaming Link
 https://youtu.be/YbUT6-ytlF8
